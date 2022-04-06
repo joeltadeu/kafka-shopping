@@ -1,6 +1,5 @@
 package com.sk.shopcart.persistence.entity;
 
-import dto.ShopItemDTO;
 import lombok.Getter;
 import lombok.Setter;
 

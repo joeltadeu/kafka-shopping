@@ -1,6 +1,6 @@
 package com.sk.shopcatalogservice.config;
 
-import dto.ShopDTO;
+import com.sk.commons.dto.ShopDTO;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;

@@ -1,6 +1,6 @@
 package com.sk.shopreportservice.web.exception.handler;
 
-import commons.exception.handler.ControllerExceptionHandler;
+import com.sk.commons.exception.handler.ControllerExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice

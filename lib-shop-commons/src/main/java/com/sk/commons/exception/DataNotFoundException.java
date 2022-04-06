@@ -1,4 +1,4 @@
-package commons.exception;
+package com.sk.commons.exception;
 
 import java.io.Serializable;
 import java.util.function.Supplier;

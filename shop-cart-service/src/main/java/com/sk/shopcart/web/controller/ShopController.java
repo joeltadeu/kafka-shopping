@@ -5,7 +5,7 @@ import com.sk.shopcart.persistence.entity.ShopItem;
 import com.sk.shopcart.persistence.repository.ShopRepository;
 import com.sk.shopcart.service.SendKafkaMessageService;
 import com.sk.shopcart.web.mapper.ShopMapper;
-import dto.ShopDTO;
+import com.sk.commons.dto.ShopDTO;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

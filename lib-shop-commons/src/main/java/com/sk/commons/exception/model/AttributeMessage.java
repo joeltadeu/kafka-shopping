@@ -1,4 +1,4 @@
-package commons.exception.model;
+package com.sk.commons.exception.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

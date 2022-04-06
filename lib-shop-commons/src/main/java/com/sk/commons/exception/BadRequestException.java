@@ -1,6 +1,6 @@
-package commons.exception;
+package com.sk.commons.exception;
 
-import commons.exception.model.AttributeMessage;
+import com.sk.commons.exception.model.AttributeMessage;
 import lombok.Getter;
 import lombok.ToString;
 import org.springframework.http.HttpStatus;

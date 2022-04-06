@@ -1,7 +1,7 @@
-package commons.validation;
+package com.sk.commons.validation;
 
-import commons.exception.BadRequestException;
-import commons.exception.DataNotFoundException;
+import com.sk.commons.exception.BadRequestException;
+import com.sk.commons.exception.DataNotFoundException;
 
 import java.util.Optional;
 

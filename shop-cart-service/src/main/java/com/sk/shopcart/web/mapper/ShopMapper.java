@@ -2,8 +2,8 @@ package com.sk.shopcart.web.mapper;
 
 import com.sk.shopcart.persistence.entity.Shop;
 import com.sk.shopcart.persistence.entity.ShopItem;
-import dto.ShopDTO;
-import dto.ShopItemDTO;
+import com.sk.commons.dto.ShopDTO;
+import com.sk.commons.dto.ShopItemDTO;
 
 import java.util.stream.Collectors;
 

@@ -1,6 +1,5 @@
 package com.sk.shopcart.persistence.entity;
 
-import dto.ShopDTO;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -14,7 +13,6 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import java.time.LocalDate;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Getter
 @Setter

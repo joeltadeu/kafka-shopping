@@ -1,4 +1,4 @@
-package commons.exception.model;
+package com.sk.commons.exception.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

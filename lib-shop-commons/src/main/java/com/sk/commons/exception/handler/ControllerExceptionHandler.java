@@ -1,10 +1,10 @@
-package commons.exception.handler;
+package com.sk.commons.exception.handler;
 
 
-import commons.exception.BadRequestException;
-import commons.exception.DataNotFoundException;
-import commons.exception.model.AttributeMessage;
-import commons.exception.model.ExceptionResponse;
+import com.sk.commons.exception.BadRequestException;
+import com.sk.commons.exception.model.AttributeMessage;
+import com.sk.commons.exception.DataNotFoundException;
+import com.sk.commons.exception.model.ExceptionResponse;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

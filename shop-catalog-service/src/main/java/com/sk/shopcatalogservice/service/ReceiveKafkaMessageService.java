@@ -2,8 +2,8 @@ package com.sk.shopcatalogservice.service;
 
 import com.sk.shopcatalogservice.persistence.entity.Product;
 import com.sk.shopcatalogservice.persistence.repository.ProductRepository;
-import dto.ShopDTO;
-import dto.ShopItemDTO;
+import com.sk.commons.dto.ShopDTO;
+import com.sk.commons.dto.ShopItemDTO;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
