@@ -2,6 +2,10 @@ kafka:
   bootstrapAddress: localhost:9092
 
 spring:
+  boot:
+    admin:
+      client:
+        url:http://localhost:8084
   logging:
     zipkin:
       enabled: false

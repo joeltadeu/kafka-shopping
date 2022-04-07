@@ -8,13 +8,13 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
+import static com.sk.commons.util.ShopTopics.SHOP_TOPIC_EVENT_NAME;
+
 @Slf4j
 @Service
 @RequiredArgsConstructor
 public class ReceiveKafkaMessageService {
   private final ShopRepository shopRepository;
-
-  private static final String SHOP_TOPIC_EVENT_NAME = "SHOP_TOPIC_EVENT";
 
   @KafkaListener(topics = SHOP_TOPIC_EVENT_NAME, groupId = "group")
   public void listenShopEvents(ShopDTO shopDTO) {

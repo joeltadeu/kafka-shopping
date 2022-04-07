@@ -43,6 +43,16 @@ services:
     volumes:
       - log_volume:/logs
 
+  monitoring-service:
+    image: monitoring-service
+    container_name: monitoring-service
+    environment:
+      - LOGGING_FILE_NAME=/logs/monitoring-service.log
+    ports:
+      - "8084:8084"
+    volumes:
+      - log_volume:/logs
+
   shop-cart-service:
     image: shop-cart-service
     container_name: shop-cart-service
@@ -52,6 +62,7 @@ services:
       - "8080:8080"
     depends_on:
       - kafka
+      - monitoring-service
     volumes:
       - log_volume:/logs
 
@@ -64,6 +75,7 @@ services:
       - "8081:8081"
     depends_on:
       - kafka
+      - monitoring-service
     volumes:
       - log_volume:/logs
 
@@ -76,6 +88,7 @@ services:
       - "8082:8082"
     depends_on:
       - kafka
+      - monitoring-service
     volumes:
       - log_volume:/logs
 

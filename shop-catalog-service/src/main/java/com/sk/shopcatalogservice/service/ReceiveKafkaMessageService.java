@@ -10,12 +10,13 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
+import static com.sk.commons.util.ShopTopics.SHOP_TOPIC_EVENT_NAME;
+import static com.sk.commons.util.ShopTopics.SHOP_TOPIC_NAME;
+
 @Slf4j
 @Service
 @RequiredArgsConstructor
 public class ReceiveKafkaMessageService {
-  private static final String SHOP_TOPIC_NAME = "SHOP_TOPIC";
-  private static final String SHOP_TOPIC_EVENT_NAME = "SHOP_TOPIC_EVENT";
 
   private final ProductRepository productRepository;
 

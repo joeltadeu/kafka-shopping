@@ -25,6 +25,8 @@
         <springdoc-openapi-data-rest.version>1.6.6</springdoc-openapi-data-rest.version>
         <modelmapper.version>3.0.0</modelmapper.version>
 		<logstash-logback-encoder.version>6.6</logstash-logback-encoder.version>
+        <spring-boot-admin-start-server.version>2.6.5</spring-boot-admin-start-server.version>
+        <spring-boot-admin-start-client.version>2.6.5</spring-boot-admin-start-client.version>
     </properties>
 
     <modules>
@@ -32,6 +34,7 @@
         <module>shop-catalog-service</module>
         <module>shop-report-service</module>
         <module>lib-shop-commons</module>
+        <module>monitoring-service</module>
     </modules>
 
     <dependencies>

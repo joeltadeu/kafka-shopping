@@ -1,7 +1,7 @@
 # Shopping Application
 
 ## Architecture:
-![Alt text](_assets/shopping-management-architecture.svg?raw=true "Shopping Management Architecture")
+![Alt text](_assets/kafka-shopping-architecture.png?raw=true "Shopping Management Architecture")
 
 ## There are three microservices:
 
@@ -47,6 +47,6 @@ In docker-compose.yml file:
 
 - Spring-Boot 2.6.6
 - Spring Cloud Sleuth
-- Spring Administration
+- Spring Boot Admin
 - Splunk
 - Java 17

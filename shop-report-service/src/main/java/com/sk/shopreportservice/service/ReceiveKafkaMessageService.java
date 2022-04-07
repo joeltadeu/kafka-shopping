@@ -9,12 +9,12 @@ import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 
+import static com.sk.commons.util.ShopTopics.SHOP_TOPIC_EVENT_NAME;
+
 @Slf4j
 @Service
 @RequiredArgsConstructor
 public class ReceiveKafkaMessageService {
-
-  private static final String SHOP_TOPIC_EVENT_NAME = "SHOP_TOPIC_EVENT";
 
   private final ShopReportRepository reportRepository;
 
